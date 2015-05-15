@@ -3,7 +3,7 @@ a retro terminal startpage
 
 This is a chrome extension to replace the new tab page with a retro style terminal page.
 
-## features
+## Features
 - current time
 - geolocated weather information (with links to yahoo weather)
 - system information
@@ -34,3 +34,5 @@ Or you can pack the extension by clicking on Pack extension.
 This project uses [VT220-mod-font](https://github.com/lalo/VT220-mod-font)
 
 The weather is grabbed using [simpleWeather](https://github.com/monkeecreate/jquery.simpleWeather/)
+
+![screenshot](/img/screenshot.png?raw=true "Screenshot")
