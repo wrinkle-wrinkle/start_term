@@ -8,6 +8,7 @@ This is a chrome extension to replace the new tab page with a retro style termin
 - geolocated weather information (with links to yahoo weather)
 - system information
 - list of editable links (all of which are clickable)
+- links are stored in google sync and so everything will be the same from whatever computer you are on
 - most recent history
 - search for google and youtube
 
@@ -22,6 +23,12 @@ Next to the $ is a input box to enter your search or the edit string.
 - ex: {"pid": "1", "cat": "Category", "site": "SiteName", "url": "https://www.mysite.com"}
 - The pid can only be 1-10
 - If you make a mistake in entering the string, it will show a popup with a reminder of what to enter.
+
+## Packing as Chrome Extension
+This start page depends on permissions given through chrome extensions.
+You can load the code as a package by going to chrome://extensions/, making sure that Developer mode is checked at the top.
+Then you can either load the entire directory as an unpacked extension by clicking on Load unpackaged extension.
+Or you can pack the extension by clicking on Pack extension.
 
 ### Resources
 This project uses [VT220-mod-font](https://github.com/lalo/VT220-mod-font)
