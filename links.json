@@ -1,0 +1,62 @@
+[
+    {
+        "pid": "1",
+        "cat": "Entertain",
+        "site": "Youtube",
+        "url": "https://www.youtube.com/feed/subscriptions"
+    },
+    {
+        "pid": "2",
+        "cat": "Entertain",
+        "site": "Lifehacker",
+        "url": "http://www.lifehacker.com"
+    },
+    {
+        "pid": "3",
+        "cat": "Entertain",
+        "site": "Netflix",
+        "url": "http://www.netflix.com/WiHome"
+    },
+    {
+        "pid": "4",
+        "cat": "Entertain",
+        "site": "IceFilms",
+        "url": "http://www.icefilms.info/index"
+    },
+    {
+        "pid": "5",
+        "cat": "Files",
+        "site": "Dropbox",
+        "url": "https://www.dropbox.com"
+    },
+    {
+        "pid": "6",
+        "cat": "Files",
+        "site": "Google Drive",
+        "url": "https://drive.google.com"
+    },
+    {
+        "pid": "7",
+        "cat": "Files",
+        "site": "One Drive",
+        "url": "https://onedrive.live.com"
+    },
+    {
+        "pid": "8",
+        "cat": "Reddit",
+        "site": "/r/videos/",
+        "url": "https://www.reddit.com/r/videos/"
+    },
+    {
+        "pid": "9",
+        "cat": "Reddit",
+        "site": "/r/funny/",
+        "url": "https://www.reddit.com/r/funny/"
+    },
+    {
+        "pid": "10",
+        "cat": "Reddit",
+        "site": "/r/raspberry_pi/",
+        "url": "http://www.reddit.com/r/raspberry_pi/"
+    }
+]

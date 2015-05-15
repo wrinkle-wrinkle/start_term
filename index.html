@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Start Terminal</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="container">
+	<div class="row" style="padding-top: 15px;">
+            <table class="table borderless">
+                <tr>
+                    <td>Top:</td>
+                    <td id="time"></td>
+                    <td id="city"></td>
+                    <td id="temp"></td>
+                    <td id="weather"></td>
+                </tr>
+                <tr>
+                    <td>Cpu(s):</td>
+                    <td id="arch"></td>
+                    <td id="cpu" colspan="2"></td>
+                    <td id="nump">0.0%ni</td>
+                </tr>
+                <tr>
+                    <td>Mem:</td>
+                    <td id="cap"></td>
+                    <td id="ava"></td>
+                    <td id="fre"></td>
+                </tr>
+                <tr>
+                    <td>Disk(s):</td>
+                    <td id="hdd" colspan="2"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row" style="padding-top: 15px;">
+            <table class="table borderless" id="links">
+                <tr class="trtitle">
+                    <td class="tdtitle">PID</td>
+		    <td class="tdtitle">CAT</td>
+                    <td class="tdtitle">SITE</td>
+                    <td class="tdtitle">URL</td>
+                </tr>
+                <tr id="1">
+                    <td>1</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="2">
+                    <td>2</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="3">
+                    <td>3</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="4">
+                    <td>4</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+		<tr id="5">
+                    <td>5</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="6">
+                    <td>6</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="7">
+                    <td>7</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="8">
+                    <td>8</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="9">
+                    <td>9</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr id="10">
+                    <td>10</td>
+		    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="row" style="padding-top: 15px;">
+            <form method="get" action="http://www.google.com/search" id="myform">
+	      <select id="stinput">
+		<option value="google">input@google.com</option>
+		<option value="youtube">input@youtube.com</option>
+		<option value="edit">edit@startterm</option>
+	      </select>
+	      $ <input id="inpbox" class='search' name='q' type='text' autocomplete="off" spellcheck="false"/>
+            </form>
+	    <form id="edform">
+	      <input id="edibox" class='search_dis' type='text' autocomplete="off" spellcheck="false"/>
+	    </form>
+        </div>
+    </div>
+    <div id="overlay">
+      <div>
+	<p>Your entry failed to parse.  The PID must be between 1-10</p>
+	<p>The format of the entry must be:</p>
+	<p>{"pid": "#1-10", "cat": "Category", "site": "SiteName", "url": "https://www.mysite.com"}</p>
+	Click here to [<a href='#' id='pop_close'>close</a>]
+      </div>
+    </div>
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/jquery.simpleWeather.min.js"></script>
+    <script src="js/form_handle.js"></script>
+  </body>
+</html>

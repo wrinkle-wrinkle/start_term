@@ -1,0 +1,21 @@
+{
+  "name": "Start Terminal",
+  "description": "Override the new tab page",
+  "version": "0.31",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "history",
+    "geolocation",
+    "system.cpu",
+    "system.memory",
+    "system.storage",
+    "storage"
+  ],
+  "icons": { "16": "icons/icon16.png",
+           "48": "icons/icon48.png",
+          "128": "icons/icon128.png" },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://query.yahooapis.com; object-src 'self'"
+}
